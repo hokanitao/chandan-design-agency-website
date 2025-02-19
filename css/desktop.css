@@ -1,4 +1,124 @@
 /* K starts here */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima Nova', sans-serif;
+}
 
+header, .section1, .section2, .section3 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+header {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 70px;
+}
+
+#hamburger {
+  width: 30px;
+}
+
+.section1 {
+  background-color: #E9F4FF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2%;
+}
+
+.section1 h1 {
+  padding-top: 20%;
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.section1 button {
+  margin-top: 10%;
+  padding: 10px 20px;
+  background-color: #4361EE;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  vertical-align: ;
+}
+
+.section1 img {
+  top: 25px;
+  position: relative;
+}
+
+.section1 button img, .section3 button img {
+  vertical-align: middle;
+}
+
+.section2 {
+  text-align: center;
+  padding: 8% 10%;
+}
+
+.section2 h2 {
+  font-size: 48px;
+}
+
+.section2 p {
+  padding-top: 4%;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.section2 div {
+  padding: 5% 7%;
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.section2 div p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+.section3 {
+  padding: 5% 10%;
+  background-color: #E9F4FF;
+  text-align: center;
+}
+
+.section3 h2 {
+  font-size: 48px;
+}
+
+.section3 div {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px 30px;
+}
+
+.section3 div img {
+  width: 100%;
+}
+
+.section3 button {
+  margin-top: 5%;
+  padding: 10px 20px;
+  background-color: #4361EE;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  vertical-align: ;
+}
 
 /* Santiago starts here */
