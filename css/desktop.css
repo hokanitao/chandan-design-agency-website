@@ -2,3 +2,137 @@
 
 
 /* Santiago starts here */
+
+.gap80 {    
+    gap: 80px;
+}
+
+.gap30 {    
+    gap: 30px;
+}
+
+.gap10 {    
+    gap: 10px;
+}
+
+#Stories {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#Stories h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#Stories .backgroundBlue {    
+    background-color: #F4F6FE;
+}
+
+#Stories p {    
+    font-size: 20px;
+    color: #4F5863
+}
+
+
+#Stories .aspas {    
+    width: 38px;
+}
+
+#Stories .arrow img {
+    width: 30px;
+    height: 30px;
+    background-color: #F4F6FE;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#Stories .w10 {
+    width: 10%;
+}
+#Stories .w80 {
+    width: 80%;
+}
+
+.substitleBlube {
+    border-bottom: 4px solid #4361EE;
+}
+
+.backgroundLightBlue {
+    background-color: #E9F4FF;
+}
+
+.backgroundWhite {
+    background-color: #FFFFFF;
+}
+
+/* Contact */
+
+#Contact .blockToBottom {
+    top: 15px;
+    position: relative;
+}
+
+#Contact input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(154, 165, 179, 0.5);
+    border-radius: 5px;
+}
+
+#Contact button {
+    padding: 13px 35px;
+    background-color: #4361EE;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 5px;
+    border-radius: 8px;
+}
+
+#Contact .contactsInfos h3 {
+    font-size: 24px;
+}
+
+#Contact .contactsInfos p {
+    font-size: 18px;
+    color: #4F5863;
+}
+
+#Contact .contactsInfos img {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+/* Blog */
+
+#Blog h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#Blog h3 {
+    font-size: 24px;
+}
+
+#Blog .linkToBlog {
+    color: #4361EE;
+    font-size: 16px;
+}
+
+#Blog .blogCard {
+    background-color: #E9F4FF;
+}
+
+#Blog button {
+    padding: 13px 35px;
+    background-color: #4361EE;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    gap: 5px;
+    border-radius: 8px;
+}
