@@ -9,6 +9,46 @@
 
 
     /* Santiago starts here */
+    #Stories h2 {
+        font-size: 32px;
+    }
+    #Stories .imageOurClients {
+        width: 268px;
+        margin: 0 auto;
+    }
 
+    #Contact h2 {
+        font-size: 32px;
+    }
 
+    #Blog h2 {
+        font-size: 32px;
+    }
+
+    .boxInfosFooter {
+        flex-wrap: wrap;
+    }
+
+    .boxInfosFooter > div {
+        width: 50%;
+    }
+
+    .boxInfosFooter > div:first-child {
+        order: 1;
+    }
+
+    .boxInfosFooter > div:nth-child(2) {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .boxInfosFooter > div:nth-child(3) {
+        order: 4;
+        margin-top: 30px;
+        padding-right: 80px;
+    }
+
+    .boxInfosFooter > div:nth-child(4) {
+        order: 2;
+    }
 }
