@@ -7,10 +7,179 @@
 @media screen and (max-width: 639px) {
     /* K starts here */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', sans-serif;
+}
+  
+header, .section1{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-
+  #logo {
+    width: 60px;
+  }
+  
+  #hamburger {
+    width: 30px;
+  }
+  
+  .section1 {
+    background-color: #E9F4FF;
+    display: grid;
+    padding-top: 2%;
+    text-align: center;
+  }
     
+  .section1 h1 {
+    padding-top: 10%;
+    font-size: 1.6em;
+    line-height: 1.5;
+  }
+
+  .underline-image {
+    display: inline;
+    background-image: url('../assets/Vector\ 4.png'); /* underline */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 5px;
+  }
+  
+  .section1 button {
+    margin-top: 5%;
+    padding: 1em 1.5em;
+    background-color: #4361EE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+  
+  #hero {
+    top: 35px;
+    position: relative;
+    width: 100%;
+  }
+
+  .section1 button img, .section3 label img {
+    vertical-align: middle;
+  }
+
+  .section2 {
+    text-align: center;
+    margin: 10%;
+    padding-top: 10%;
+  }
+
+  .section2 h2 {
+    font-size: 1.5em;
+    padding: 5% 0;
+  }
+  
+  .section2 p {
+    line-height: 1.7;
+    margin-top: 5%;
+  }
+
+  .section2 div {
+    align-items: center;
+  }
+  
+  .section2 img {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .section2 div p {
+    text-align: center;
+    line-height: 1.7;
+    /* font-size: 15px; */
+    margin-top: 10%;
+  }
+
+  .section3 {
+    padding: 3% 5% ;
+    background-color: #E9F4FF;
+    text-align: center;
+  }
+  
+  .section3 h2 {
+    font-size: 1.5em;
+    padding: 10%;
+  }
+
+  .section3 div {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .section3 div img {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 5%;
+  }
+
+  .more-images {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .section3 div img {
+    border-radius: 5%;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  #toggle:checked ~ .more-images {
+    display: flex;
+  }
+  
+  label {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0.3em 1em;
+    background-color: #4361EE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    align-content: center;
+  }
+
+  .section3 label > img {
+    width: 2em;
+  }
+  
+  label::after {
+    content: "View more"; /* default text */
+  }
+
+  .hidden {
+    display: none;
+  }
+
     /* Santiago starts here */
 
 
