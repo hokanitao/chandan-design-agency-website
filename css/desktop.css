@@ -51,12 +51,12 @@ header {
 
 .section1 button {
   margin-top: 10%;
-  padding: 10px 20px;
+  padding: 0.8em 1.7em;;
   background-color: #4361EE;
   color: #FFFFFF;
   border-radius: 5px;
   border: none;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 #hero {
@@ -65,7 +65,7 @@ header {
   width: 100%;
 }
 
-.section1 button img, .section3 label img {
+.section1 button img {
   vertical-align: middle;
 }
 
@@ -85,7 +85,7 @@ header {
 }
 
 .section2 div {
-  padding: 0 4%;
+  padding: 0;
   display: grid;
   grid-template-columns: 3fr 5fr;
   gap: 60px;
@@ -99,7 +99,7 @@ header {
 }
 
 .section3 {
-  padding: 5% 10%;
+  padding: 5% 7%;
   background-color: #E9F4FF;
   text-align: center;
 }
@@ -116,27 +116,14 @@ header {
   justify-content: center;
 }
 
-.more-images {
-  margin: 0;
-  display: flex;
-  gap: 30px;
-}
-
 .section3 div img {
   border-radius: 5%;
+  width: calc(25% - 30px);
 }
 
-#toggle {
-  display: none;
-}
-
-#toggle:checked ~ .more-images {
-  display: flex;
-}
-
-label {
+.btn {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 2.5em;
   padding: 10px 20px;
   background-color: #4361EE;
   color: #FFFFFF;
@@ -145,10 +132,15 @@ label {
   cursor: pointer;
   font-size: 18px;
   align-content: center;
+  /* vertical-align: middle; */
 }
 
-label::after {
-  content: "Request a Quote"; /* default text */
+#arrow {
+  vertical-align: middle;
+}
+
+.mobile {
+  display: none;
 }
 
 /* Santiago starts here */

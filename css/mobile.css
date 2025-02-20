@@ -6,20 +6,19 @@
 /* 639px */
 @media screen and (max-width: 639px) {
     /* K starts here */
-
-*{
+  *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Proxima Nova', sans-serif;
-}
+  }
   
-header, .section1{
+  header, .section1{
     padding-left: 5%;
     padding-right: 5%;
-}
+  }
 
-header {
+  header {
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
@@ -37,7 +36,8 @@ header {
   
   .section1 {
     background-color: #E9F4FF;
-    display: grid;
+    display: flex;
+    flex-flow: column;
     padding-top: 2%;
     text-align: center;
   }
@@ -59,12 +59,12 @@ header {
   
   .section1 button {
     margin-top: 5%;
-    padding: 1em 1.5em;
+    padding: 1em 2em;
     background-color: #4361EE;
     color: #FFFFFF;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
-    font-size: 0.9em;
+    font-size: 1.2em;
     font-weight: 600;
   }
   
@@ -74,24 +74,26 @@ header {
     width: 100%;
   }
 
-  .section1 button img, .section3 label img {
+  .section1 button img {
     vertical-align: middle;
   }
 
   .section2 {
     text-align: center;
-    margin: 10%;
-    padding-top: 10%;
+    margin-top: 10%;
+    padding: 0 34px;
   }
 
   .section2 h2 {
-    font-size: 1.5em;
-    padding: 5% 0;
+    font-size: 1.8em;
+    padding: 10% 0 0 0;
   }
   
   .section2 p {
     line-height: 1.7;
-    margin-top: 5%;
+    margin-top: 7%;
+    padding: 0;
+    font-size: 1.2em;
   }
 
   .section2 div {
@@ -106,8 +108,7 @@ header {
   .section2 div p {
     text-align: center;
     line-height: 1.7;
-    /* font-size: 15px; */
-    margin-top: 10%;
+    font-size: 1.1em;
   }
 
   .section3 {
@@ -138,48 +139,35 @@ header {
     border-radius: 5%;
   }
 
-  .more-images {
-    margin: 0;
-    display: flex;
-    gap: 30px;
-  }
-  
   .section3 div img {
     border-radius: 5%;
   }
   
-  #toggle {
-    display: none;
-  }
-  
-  #toggle:checked ~ .more-images {
-    display: flex;
-  }
-  
-  label {
+  .btn {
     display: inline-block;
-    margin-top: 10px;
-    padding: 0.3em 1em;
+    margin-top: 2em;
+    padding: 0.9em 1.7em;
     background-color: #4361EE;
     color: #FFFFFF;
     border: none;
     border-radius: 7px;
-    cursor: pointer;
+    /* cursor: pointer; */
     align-content: center;
   }
 
-  .section3 label > img {
-    width: 2em;
+ #arrow {
+    width: 1.5em;
+    height: auto;
+    vertical-align: middle;
   }
   
-  label::after {
-    content: "View more"; /* default text */
-  }
-
-  .hidden {
+  .desktop {
     display: none;
   }
 
+  .mobile {
+    display: inline-block;
+  }
     /* Santiago starts here */
 
 
