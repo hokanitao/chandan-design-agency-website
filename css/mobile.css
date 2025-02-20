@@ -30,4 +30,10 @@
     .boxInfosFooter > div {
         width: 100%;
     }
+    .boxFooterIcons {
+        gap: 30px;
+    }
+    .boxInfosFooter > div:nth-child(3) {
+        margin-top: 0px;
+    }
 }
