@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/desktop.css">
-  <link rel="stylesheet" href="./css/mobile.css">
+  <!-- <link rel="stylesheet" href="./css/desktop.css"> -->
+  <!-- <link rel="stylesheet" href="./css/mobile.css"> -->
   <link rel="stylesheet" href="./css/tablet.css">
   <title>chandan-design-agency-website</title>
 </head>
@@ -18,9 +18,8 @@
   <main>
     <section class="section1">
       <div>
-        <h1>Crafting Visual Stories:
-          <br>Unleashing Creative
-          <br>Essence
+        <h1>Crafting <span class="underline-image">Visual</span> Stories:
+          <br>Unleashing Creative Essence
         </h1>
         <button>Let's talk <img src="./assets/Right arrow icon 1.png"></button>
       </div>
@@ -28,10 +27,10 @@
     </section>
 
     <section class="section2">
-      <h2>Elevate Your Brand Identity</h2>
+      <h2>Elevate Your <span class="underline-image">Brand Identity</span></h2>
       <p>
         Unlock the true potential of your brand. Our passionate team of creative experts is committed to 
-        <br>delivering innovative and tailor-made solutions that elevate your brand to new heights.
+        delivering innovative and tailor-made solutions that elevate your brand to new heights.
       </p>
       <div>
         <img src="./assets/Img left.png">
@@ -49,18 +48,22 @@
     </section>
 
     <section class="section3">
-      <h2>Our Services</h2>
+      <h2>Our <span class="underline-image">Services</span></h2>
       <div>
         <img src="./assets/Our services item 1.png">
         <img src="./assets/Our services item 2.png">
         <img src="./assets/Our services item 3.png">
         <img src="./assets/Our services item 4.png">
-        <img src="./assets/Our services item 5.png">
-        <img src="./assets/Our services item 6.png">
-        <img src="./assets/Our services item 7.png">
-        <img src="./assets/Our services item 8.png">
+        <div class="more-images">
+          <img src="./assets/Our services item 5.png" class="hidden">
+          <img src="./assets/Our services item 6.png" class="hidden">
+          <img src="./assets/Our services item 7.png" class="hidden">
+          <img src="./assets/Our services item 8.png" class="hidden">
+        </div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="btn"><img src="./assets/Right arrow icon 1.png"></label>
       </div>
-      <button>Request a Quote<img src="./assets/Right arrow icon 1.png"></button>
+      <!-- <button>Request a Quote<img src="./assets/Right arrow icon 1.png"></button> -->
     </section>
 
   </main>
