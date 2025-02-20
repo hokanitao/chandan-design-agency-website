@@ -12,6 +12,22 @@
 
     
     /* Santiago starts here */
+    #Stories h2 {
+        font-size: 24px;
+    }
 
+    #Contact h2 {
+        font-size: 24px;
+    }
 
+    #Blog h2 {
+        font-size: 24px;
+    }
+
+    #Stories .w80 {
+        width: 100%;
+    }
+    .boxInfosFooter > div {
+        width: 100%;
+    }
 }
