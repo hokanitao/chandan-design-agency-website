@@ -40,6 +40,7 @@ header {
 .section1 h1 {
   padding-top: 20%;
   font-size: 50px;
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -66,10 +67,22 @@ header {
   display: inline;
 }
 
+.heroimage {
+  position: relative;
+}
+
 #hero {
   top: 25px;
   position: relative;
   width: 100%;
+  z-index: 1;
+}
+
+#pattern {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  z-index: 0;
 }
 
 .section1 button img {
@@ -83,6 +96,7 @@ header {
 
 .section2 h2 {
   font-size: 48px;
+  font-weight: 600;
 }
 
 .section2 > p {
@@ -115,6 +129,7 @@ header {
 
 .section3 h2 {
   font-size: 48px;
+  font-weight: 600;
 }
 
 .section3 > div {
@@ -409,7 +424,8 @@ header {
 }
 
 #hero {
-  top: 10px;
+  top: 30px;
+  left: -10px;
   position: relative;
   width: 100%;
 }
@@ -600,7 +616,7 @@ header {
 
   .section1 h1 {
     padding-top: 10%;
-    font-size: 1.6em;
+    font-size: 24px;
     line-height: 1.5;
   }
 
@@ -624,10 +640,20 @@ header {
     font-weight: 600;
   }
 
+  .heroimage {
+    padding: 5%;
+  }
+
   #hero {
-    top: 35px;
+    top: 55px;
+    left: 15px;
     position: relative;
     width: 100%;
+  }
+
+  #pattern {
+    top: 50px;
+    left: 10px;
   }
 
   .section1 button img {
