@@ -1,12 +1,15 @@
 /* K starts here */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
 }
 
-header, .section1, .section2, .section3 {
+header,
+.section1,
+.section2,
+.section3 {
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -28,7 +31,7 @@ header {
 }
 
 .section1 {
-  background-color: #E9F4FF;
+  background-color: #e9f4ff;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 2%;
@@ -42,7 +45,7 @@ header {
 
 .underline-image {
   display: inline;
-  background-image: url('../assets/Vector\ 4.png'); /* underline */
+  background-image: url("../assets/Vector\ 4.png"); /* underline */
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -51,12 +54,16 @@ header {
 
 .section1 button {
   margin-top: 10%;
-  padding: 0.8em 1.7em;;
-  background-color: #4361EE;
-  color: #FFFFFF;
+  padding: 0.8em 1.7em;
+  background-color: #4361ee;
+  color: #ffffff;
   border-radius: 5px;
   border: none;
   font-size: 1.1em;
+}
+
+.section1 button img {
+  display: inline;
 }
 
 #hero {
@@ -102,7 +109,7 @@ header {
 
 .section3 {
   padding: 5% 7%;
-  background-color: #E9F4FF;
+  background-color: #e9f4ff;
   text-align: center;
 }
 
@@ -127,14 +134,17 @@ header {
   display: inline-block;
   margin-top: 2.5em;
   padding: 10px 20px;
-  background-color: #4361EE;
-  color: #FFFFFF;
+  background-color: #4361ee;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
   align-content: center;
-  /* vertical-align: middle; */
+}
+
+.btn img {
+  display: inline-block;
 }
 
 #arrow {
@@ -147,185 +157,184 @@ header {
 
 /* Santiago starts here */
 
-.gap80 {    
-    gap: 80px;
+.gap80 {
+  gap: 80px;
 }
 
-.gap30 {    
-    gap: 30px;
+.gap30 {
+  gap: 30px;
 }
 
-.gap10 {    
-    gap: 10px;
+.gap10 {
+  gap: 10px;
 }
 
 #Stories {
-    font-family: 'Proxima Nova', sans-serif;
+  font-family: "Proxima Nova", sans-serif;
 }
 
 #Stories h2 {
-    font-size: 48px;
-    font-weight: 700;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-#Stories .backgroundBlue {    
-    background-color: #F4F6FE;
+#Stories .backgroundBlue {
+  background-color: #f4f6fe;
 }
 
-#Stories p {    
-    font-size: 20px;
-    color: #4F5863
+#Stories p {
+  font-size: 20px;
+  color: #4f5863;
 }
 
-
-#Stories .aspas {    
-    width: 38px;
+#Stories .aspas {
+  width: 38px;
 }
 
 #Stories .arrow img {
-    width: 30px;
-    height: 30px;
-    background-color: #F4F6FE;
-    padding: 5px;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #f4f6fe;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 #Stories .w10 {
-    width: 10%;
+  width: 10%;
 }
 #Stories .w80 {
-    width: 80%;
+  width: 80%;
 }
 
 .substitleBlube {
-    padding: 0 0 10px;
-    background-image: url("../assets/border-titles.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
+  padding: 0 0 10px;
+  background-image: url("../assets/border-titles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .backgroundLightBlue {
-    background-color: #E9F4FF;
+  background-color: #e9f4ff;
 }
 
 .backgroundWhite {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Contact */
 
 #Contact .blockToBottom {
-    top: 15px;
-    position: relative;
+  top: 15px;
+  position: relative;
 }
 
 #Contact input {
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid rgba(154, 165, 179, 0.5);
-    border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgba(154, 165, 179, 0.5);
+  border-radius: 5px;
 }
 
 #Contact button {
-    padding: 13px 35px;
-    background-color: #4361EE;
-    color: white;
-    display: flex;
-    font-size: 18px;
-    font-weight: 700;
-    gap: 5px;
-    border-radius: 8px;
+  padding: 13px 35px;
+  background-color: #4361ee;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 5px;
+  border-radius: 8px;
 }
 
 #Contact .contactsInfos h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #Contact .contactsInfos p {
-    font-size: 18px;
-    color: #4F5863;
+  font-size: 18px;
+  color: #4f5863;
 }
 
 #Contact .contactsInfos img {
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    padding: 8px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
 }
 
 /* Blog */
 
 #Blog h2 {
-    font-size: 48px;
-    font-weight: 700;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 #Blog h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 #Blog .linkToBlog {
-    color: #4361EE;
-    font-size: 16px;
+  color: #4361ee;
+  font-size: 16px;
 }
 
 #Blog .blogCard {
-    background-color: #E9F4FF;
+  background-color: #e9f4ff;
 }
 
 #Blog button {
-    padding: 13px 35px;
-    background-color: #4361EE;
-    color: white;
-    display: flex;
-    font-size: 18px;
-    font-weight: 700;
-    gap: 5px;
-    border-radius: 8px;
+  padding: 13px 35px;
+  background-color: #4361ee;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 5px;
+  border-radius: 8px;
 }
 
 /* Footer */
 
 #Footer {
-    background-color: #03071B;
-    color: white;
+  background-color: #03071b;
+  color: white;
 }
 
 #Footer .logoFooter {
-    width: 70px;
+  width: 70px;
 }
 
 #Footer h5 {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 #Footer p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 #Footer .littleText {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 #Footer input {
-    border: 1px solid #7B7C82;
-    background-color: #03071B;  
-    border-radius: 6px;
-    padding: 10px;
+  border: 1px solid #7b7c82;
+  background-color: #03071b;
+  border-radius: 6px;
+  padding: 10px;
 }
 
 #Footer button {
-    padding: 8px 20px;
-    width: 150px;
-    background-color: #4361EE;
-    color: white;
-    display: flex;
-    font-size: 18px;
-    font-weight: 700;
-    gap: 5px;
-    border-radius: 8px;
+  padding: 8px 20px;
+  width: 150px;
+  background-color: #4361ee;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 5px;
+  border-radius: 8px;
 }
 #Footer .rodape {
-    font-size: 14px;
+  font-size: 14px;
 }
