@@ -1,4 +1,210 @@
-/* K starts here */
+/* ########## */
+/* RESPONSIVE */
+/* ########## */
 
 
-/* Santiago starts here */
+/* 767px */
+@media screen and (max-width: 767px) {
+    /* K starts here */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', sans-serif;
+  }
+  
+  header, .section1, .section2, .section3 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  header {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo {
+    width: 60px;
+  }
+  
+  #hamburger {
+    width: 30px;
+  }
+  
+  .section1 {
+    background-color: #E9F4FF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2%;
+  }
+  
+  .section1 h1 {
+    padding-top: 20%;
+    font-size: 1.6em;
+    line-height: 1.5;
+  }
+  
+  .underline-image {
+    display: inline;
+    background-image: url('../assets/Vector\ 4.png'); /* underline */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    padding-bottom: 5px;
+  }
+
+  .section1 button {
+    margin-top: 10%;
+    padding: 0.7em 1.2em;;
+    background-color: #4361EE;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #hero {
+    top: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .section1 button img, .section3 label img {
+    vertical-align: middle;
+  }
+  
+  .section2 {
+    text-align: center;
+    padding: 10% 8%;
+  }
+  
+  .section2 h2 {
+    font-size: 1.8em;
+    padding: 5%;
+  }
+  
+  .section2 p {
+    padding: 0;
+    font-size: 1em;
+    line-height: 1.7;
+  }
+  
+  .section2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 5%;
+    align-items: center;
+  }
+  
+  .section2 img {
+    width: 50%;
+  }
+
+  .section2 div p {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  
+  .section3 {
+    padding: 5% 10%;
+    background-color: #E9F4FF;
+    text-align: center;
+  }
+  
+  .section3 h2 {
+    font-size: 1.8em;
+    padding: 3%;
+  }
+  
+  .section3 div {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .section3 div img {
+    width: calc(50% - 10px);
+    border-radius: 5%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+
+.btn {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.9em 1.7em;
+    background-color: #4361EE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    align-content: center;
+  }
+
+  .section3 label > img {
+    width: 1.2em;
+  }
+
+  .hiddenMobile {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline-block;
+  }
+  
+    /* Santiago starts here */
+    #Stories h2 {
+        font-size: 32px;
+    }
+    #Stories .imageOurClients {
+        width: 268px;
+        margin: 0 auto;
+    }
+
+    #Contact h2 {
+        font-size: 32px;
+    }
+
+    #Blog h2 {
+        font-size: 32px;
+    }
+
+    .boxInfosFooter {
+        flex-wrap: wrap;
+    }
+
+    .boxInfosFooter > div {
+        width: 50%;
+    }
+
+    .boxInfosFooter > div:first-child {
+        order: 1;
+    }
+
+    .boxInfosFooter > div:nth-child(2) {
+        order: 3;
+        margin-top: 30px;
+    }
+
+    .boxInfosFooter > div:nth-child(3) {
+        order: 4;
+        margin-top: 30px;
+        padding-right: 80px;
+    }
+
+    .boxInfosFooter > div:nth-child(4) {
+        order: 2;
+    }
+}

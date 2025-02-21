@@ -4,14 +4,233 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/desktop.css">
-  <link rel="stylesheet" href="./css/mobile.css">
   <link rel="stylesheet" href="./css/tablet.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <link rel="stylesheet" href="./css/tailwind.min.css">
   <title>chandan-design-agency-website</title>
 </head>
 <body>
-  <!-- K starts here -->
+  <main>
+    <!-- K starts here -->
+    <header>
+      <img id="logo" src="./assets/Logo large.png" />
+      <img id="hamburger" src="./assets/hamburger 1.png" />
+    </header>
 
-  <!-- Santiago starts here -->
-   
+    <main>
+      <section class="section1">
+        <div>
+          <h1>
+            Crafting <span class="underline-image">Visual</span> Stories:
+            <br />Unleashing Creative Essence
+          </h1>
+          <button>
+            Let's talk <img src="./assets/Right arrow icon 1.png" />
+          </button>
+        </div>
+        <img id="hero" src="./assets/Banner hero img rgt.png" />
+      </section>
+
+      <section class="section2">
+        <h2>
+          Elevate Your <span class="underline-image">Brand Identity</span>
+        </h2>
+        <p>
+          Unlock the true potential of your brand. Our passionate team of
+          creative experts is committed to delivering innovative and tailor-made
+          solutions that elevate your brand to new heights.
+        </p>
+        <div>
+          <img src="./assets/Img left.png" />
+          <p>
+            We believe that a strong brand is the cornerstone of every
+            successful business. We are a passionate team of branding experts
+            dedicated to helping businesses like yours create a unique and
+            compelling brand identity.
+            <br /><br />With our extensive experience and deep understanding of
+            brand strategy, design, and storytelling, we collaborate closely
+            with our clients to craft brand experiences that resonate with their
+            target audience. Our goal is to create brands that not only capture
+            attention but also foster trust, loyalty, and recognition.
+          </p>
+        </div>
+      </section>
+
+      <section class="section3">
+        <h2>Our <span class="underline-image">Services</span></h2>
+        <div>
+          <img src="./assets/Our services item 1.png" />
+          <img src="./assets/Our services item 2.png" />
+          <img src="./assets/Our services item 3.png" />
+          <img src="./assets/Our services item 4.png" />
+          <img src="./assets/Our services item 5.png" class="hiddenMobile" />
+          <img src="./assets/Our services item 6.png" class="hiddenMobile" />
+          <img src="./assets/Our services item 7.png" class="hiddenMobile" />
+          <img src="./assets/Our services item 8.png" class="hiddenMobile" />
+        </div>
+        <button class="btn desktop">
+          Request a Quote<img
+            src="./assets/Right arrow icon 1.png"
+            id="arrow"
+          />
+        </button>
+        <button class="btn mobile">
+          View more<img src="./assets/Right arrow icon 1.png" id="arrow" />
+        </button>
+      </section>
+
+    <!-- Santiago starts here -->
+     <section class="p-6 sm:p-12 md:p-20" id="Stories">
+        <div class="w-full text-center">
+          <h2>Happy <span class="substitleBlube">stories</span> of our clients</h2>
+        </div>
+        <div class="flex justify-between my-16">
+          <div class="arrow w10 flex-wrap justify-center items-center hidden sm:flex"><img src="./assets/arrow-left.svg" alt=""></div>
+          <div class="backgroundBlue items-center w80 flex p-8 gap80 flex-col md:flex-row">
+            <img class="imageOurClients" src="./assets/img-left-stories.jpg" alt="">
+            <div class="flex flex-col items-center justify-center gap30 md:items-start">
+              <img class="aspas" src="./assets/aspas.jpg" alt="">
+              <p class="text-center md:text-left">Their design process is really unique. They collaborated with us on our project. The communication was simple and transparent. They have a talented team of designer who understands the insights very clearly and continues to push their efforts.</p>
+            </div>
+          </div>
+          <div class="arrow w10 flex-wrap justify-center items-center hidden sm:flex"><img src="./assets/arrow-right.svg" alt=""></div>
+        </div>
+        <div class="w-full flex justify-center items-center gap10">
+          <img src="./assets/circle-full.svg" alt="" class="hidden md:block">
+          <img src="./assets/circle-empty.svg" alt="">
+          <img src="./assets/circle-full.svg" alt="" class="md:hidden">
+          <img src="./assets/circle-empty.svg" alt="">
+        </div>
+        <div class="w-full text-center mt-16">
+          <h2><span class="substitleBlube">Contact</span> us today</h2>
+        </div>
+     </section>
+     <!-- Contact -->
+     <section class="backgroundLightBlue pt-12 px-12 md:pt-20 md:px-20" id="Contact">
+        <div class="blockToBottom flex flex-col justify-around md:flex-row">
+          <div class="flex flex-wrap flex-row w-full contactsInfos md:w-2/5 md:flex-col">
+            <div class="flex w-full sm:w-1/2 md:w-full">
+              <img src="./assets/location.svg" alt="">
+              <div class="ml-3">
+                <h3>Office Address:</h3>
+                <p>66 Road Broklyn Street, 600</p>
+              </div>
+            </div>
+            <div class="flex w-full mt-12 sm:mt-0 sm:w-1/2 justify-start sm:justify-end md:w-full md:my-10 md:justify-start">
+              <img src="./assets/call.svg" alt="">
+              <div class="ml-3">
+                <h3>Contact No</h3>
+                <p><a href="tel:+15095621912">(509) 562-1912</a></p>
+              </div>
+            </div>
+            <div class="flex mt-12 w-full sm:w-1/2 md:w-full md:mt-0">
+              <img src="./assets/sms.svg" alt="">
+              <div class="ml-3">
+                <h3>Email</h3>
+                <p><a href="mailto:contact@creativedesign.com">contact@creativedesign.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="backgroundWhite w-full p-10 mt-10 rounded md:w-3/5 md:mt-0">
+            <div class="flex flex-col gap30">
+              <div class="flex flex-col">
+                <label for="name">Name*</label>
+                <input type="text" name="name" id="name" placeholder="Your name here">
+              </div>
+              <div class="flex flex-col">
+                <label for="email">Email*</label>
+                <input type="email" name="email" id="email" placeholder="Your email here">
+              </div>
+              <div class="flex flex-col">
+                <label for="company">Company name</label>
+                <input type="text" name="company" id="company" placeholder="Your company name here">
+              </div>
+              <div class="flex flex-col">
+                <label for="phone">Phone no*</label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone number here">
+              </div>
+              <div>
+                <button type="submit">Submit <img src="./assets/arrow-submit.svg" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+     <!-- Blog -->
+     <section class="p-6 sm:p-12 md:p-20" id="Blog">
+        <div class="w-full text-center">
+          <h2>Stay <span class="substitleBlube">updated</span> with blogs</h2>
+        </div>
+        <div class="flex flex-col justify-center pt-16 pb-8 gap30 sm:flex-row">
+          <div class="blogCard flex flex-col w-full sm:w-1/2 md:w-1/3">
+            <img src="./assets/blog-1.jpg" alt="">
+            <div class="p-10">
+              <h3 class="mb-5">Basic rule of running web agency business</h3>
+              <a class="linkToBlog flex gap10">Read more <img src="./assets/blog-arrow-right.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="blogCard flex flex-col w-full sm:w-1/2 md:w-1/3">
+            <img src="./assets/blog-2.jpg" alt="">
+            <div class="p-10">
+              <h3 class="mb-5">Understanding different types of Marketing data</h3>
+              <a class="linkToBlog flex gap10">Read more <img src="./assets/blog-arrow-right.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="blogCard hidden flex flex-col w-1/3 md:block">
+            <img src="./assets/blog-3.jpg" alt="">
+            <div class="py-10 px-3">
+              <h3 class="mb-5">Understanding the users need to grow your business</h3>
+              <a class="linkToBlog flex gap10">Read more <img src="./assets/blog-arrow-right.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center">
+          <button type="submit">View all <img src="./assets/arrow-submit.svg" alt=""></button>
+        </div>
+      </section>
+      <footer class="pt-6 px-6 md:pt-20 md:px-20" id="Footer">
+        <div class="boxInfosFooter flex justify-between flex-col sm:flex-row">
+          <div class="flex items-center mb-8 sm:mb-0 sm:flex-col">
+            <img class="logoFooter mr-8 sm:mb-5 sm:mr-0" src="./assets/logo-footer.jpg" alt="">
+            <div class="boxFooterIcons flex gap10">
+              <a href=""><img src="./assets/icon-footer-1.png" alt=""></a>
+              <a href=""><img src="./assets/icon-footer-2.png" alt=""></a>
+              <a href=""><img src="./assets/icon-footer-3.png" alt=""></a>
+              <a href=""><img src="./assets/icon-footer-4.png" alt=""></a>
+            </div>
+          </div>
+          <div class="flex flex-col gap10 mb-8 sm:mb-0 ">
+            <h5 class="bold">Contact</h5>
+            <p class="flex gap10"><img src="./assets/footer-call.svg" alt=""> 66 Road Broklyn Street, 600</p>
+            <p class="flex gap10"><img src="./assets/footer-location.svg" alt=""><a href="tel:+15095621912">(509) 562-1912</a></p>
+            <p class="flex gap10"><img src="./assets/footer-sms.svg" alt=""> <a href="mailto:contact@creativedesign.com">contact@creativedesign.com</a></p>
+          </div>
+          <div class="flex flex-col gap10 md:items-start sm:items-center">
+            <h5 class="bold">Explore</h5>
+            <nav>
+              <ul>
+                <li class="mb-2"><a href="#">About</a></li>
+                <li class="mb-2"><a href="#">Our Team</a></li>
+                <li class="mb-2"><a href="#">Shop</a></li>
+                <li class="mb-2"><a href="#">Career</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex flex-col gap10 w-1/3">
+            <h5 class="bold">Subscribe to our Newsletter</h5>
+            <div class="flex flex-col gap10">
+              <label for="email">Email*</label>
+              <input type="email" name="email" id="email" placeholder="Your email here">
+              <p class="littleText mb-2">By subscribing you agree to our Terms & Conditions </p>
+              <button type="submit">Subscribe <img src="./assets/arrow-submit.svg" alt=""></button>
+            </div>
+          </div>
+        </div>
+        <div class="pt-12 pb-3">
+          <p class="text-center rodape littleText">© 2023 Creative Design Agency, All Rights Reserved</p>
+        </div>
+      </footer>
+  </main>
 </body>
 </html>
