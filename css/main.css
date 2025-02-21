@@ -280,6 +280,7 @@ header {
 
 #Blog .blogCard {
   background-color: #e9f4ff;
+  border-radius: 15px;
 }
 
 #Blog button {
