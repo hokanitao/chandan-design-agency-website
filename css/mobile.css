@@ -2,18 +2,18 @@
 /* RESPONSIVE */
 /* ########## */
 
-
 /* 639px */
 @media screen and (max-width: 639px) {
-    /* K starts here */
-  *{
+  /* K starts here */
+  * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: "Proxima Nova", sans-serif;
   }
-  
-  header, .section1{
+
+  header,
+  .section1 {
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -29,19 +29,19 @@
   #logo {
     width: 60px;
   }
-  
+
   #hamburger {
     width: 30px;
   }
-  
+
   .section1 {
-    background-color: #E9F4FF;
+    background-color: #e9f4ff;
     display: flex;
     flex-flow: column;
     padding-top: 2%;
     text-align: center;
   }
-    
+
   .section1 h1 {
     padding-top: 10%;
     font-size: 1.6em;
@@ -50,24 +50,24 @@
 
   .underline-image {
     display: inline;
-    background-image: url('../assets/Vector\ 4.png'); /* underline */
+    background-image: url("../assets/Vector\ 4.png"); /* underline */
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
     padding-bottom: 5px;
   }
-  
+
   .section1 button {
     margin-top: 5%;
     padding: 1em 2em;
-    background-color: #4361EE;
-    color: #FFFFFF;
+    background-color: #4361ee;
+    color: #ffffff;
     border-radius: 7px;
     border: none;
     font-size: 1.2em;
     font-weight: 600;
   }
-  
+
   #hero {
     top: 35px;
     position: relative;
@@ -88,7 +88,7 @@
     font-size: 1.8em;
     padding: 10% 0 0 0;
   }
-  
+
   .section2 p {
     line-height: 1.7;
     margin-top: 7%;
@@ -99,7 +99,7 @@
   .section2 div {
     align-items: center;
   }
-  
+
   .section2 img {
     width: 100%;
     margin-top: 10%;
@@ -112,11 +112,11 @@
   }
 
   .section3 {
-    padding: 3% 5% ;
-    background-color: #E9F4FF;
+    padding: 3% 5%;
+    background-color: #e9f4ff;
     text-align: center;
   }
-  
+
   .section3 h2 {
     font-size: 1.5em;
     padding: 10%;
@@ -130,7 +130,7 @@
     max-width: 100%;
     justify-content: center;
   }
-  
+
   .section3 div img {
     width: calc(50% - 10px);
     height: calc(50% - 10px);
@@ -142,25 +142,25 @@
   .section3 div img {
     border-radius: 5%;
   }
-  
+
   .btn {
     display: inline-block;
     margin-top: 2em;
     padding: 0.9em 1.7em;
-    background-color: #4361EE;
-    color: #FFFFFF;
+    background-color: #4361ee;
+    color: #ffffff;
     border: none;
     border-radius: 7px;
     /* cursor: pointer; */
     align-content: center;
   }
 
- #arrow {
+  #arrow {
     width: 1.5em;
     height: auto;
     vertical-align: middle;
   }
-  
+
   .desktop {
     display: none;
   }
@@ -168,7 +168,5 @@
   .mobile {
     display: inline-block;
   }
-    /* Santiago starts here */
-
-
+  /* Santiago starts here */
 }
