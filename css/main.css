@@ -44,15 +44,6 @@ header {
   line-height: 1.5;
 }
 
-.underline-image {
-  display: inline;
-  background-image: url("../assets/Vector\ 4.png"); /* underline */
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  padding-bottom: 5px;
-}
-
 .section1 button {
   margin-top: 10%;
   padding: 0.8em 1.7em;
@@ -63,7 +54,7 @@ header {
   font-size: 1.1em;
 }
 
-.section1 button img {
+.section1 button img, #section3arrow, .icon {
   display: inline;
 }
 
@@ -97,6 +88,15 @@ header {
 .section2 h2 {
   font-size: 48px;
   font-weight: 600;
+}
+
+.underline-image {
+  display: inline;
+  background-image: url("../assets/Vector\ 4.png"); /* underline */
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-bottom: 5px;
 }
 
 .section2 > p {
@@ -140,9 +140,58 @@ header {
   justify-content: center;
 }
 
-.section3 div img {
+.imgcontainer {
   border-radius: 5%;
-  width: calc(25% - 30px);
+  width: calc(25% - 60px);
+  height: auto;
+  position: relative;
+  background-color: #000000;
+  z-index: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+#section3arrow {
+  position: relative;
+  margin-left: 10px;
+}
+
+.backimage {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.icon {
+  width: 36px;
+  margin-right: 5%;
+}
+
+.servicetitle {
+  position: absolute;
+  bottom: 60px;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.request {
+  position: absolute;
+  color: #FFFFFF;
+  padding-left: 30px; 
+  font-size: 0.9em;
+  font-weight: 100;
+  width: 100%;
+  bottom: 35px;
+}
+
+#digitalmarketing {
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
 .btn {
@@ -164,6 +213,7 @@ header {
 
 #arrow {
   vertical-align: middle;
+  margin-left: 10px;
 }
 
 .mobile {
@@ -364,78 +414,36 @@ header {
 /* 767px */
 @media screen and (max-width: 767px) {
   /* K starts here */
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Proxima Nova', sans-serif;
-}
-
-header, .section1, .section2, .section3 {
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
 header {
   padding-top: 4%;
   padding-bottom: 4%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 #logo {
   width: 60px;
 }
 
-#hamburger {
-  width: 30px;
-}
-
 .section1 {
-  background-color: #E9F4FF;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 2%;
+  grid-template-columns: 5fr 4fr;
+  padding: 5% 8% 4% 8%;
 }
 
 .section1 h1 {
-  padding-top: 20%;
-  font-size: 1.6em;
-  line-height: 1.5;
-}
-
-.underline-image {
-  display: inline;
-  background-image: url('../assets/Vector\ 4.png'); /* underline */
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  padding-bottom: 5px;
+  font-size: 1.8em;
+  padding-top: 10%;
+  line-height: 1.9;
 }
 
 .section1 button {
-  margin-top: 10%;
   padding: 0.7em 1.2em;;
-  background-color: #4361EE;
-  color: #FFFFFF;
-  border-radius: 5px;
-  border: none;
 }
 
 #hero {
-  top: 30px;
+  top: 40px;
   left: -10px;
-  position: relative;
-  width: 100%;
-}
-
-.section1 button img, .section3 label img {
-  vertical-align: middle;
 }
 
 .section2 {
-  text-align: center;
   padding: 10% 8%;
 }
 
@@ -447,7 +455,6 @@ header {
 .section2 p {
   padding: 0;
   font-size: 1em;
-  line-height: 1.7;
 }
 
 .section2 div {
@@ -463,15 +470,11 @@ header {
 }
 
 .section2 div p {
-  text-align: left;
-  line-height: 1.7;
   font-size: 15px;
 }
 
 .section3 {
   padding: 5% 10%;
-  background-color: #E9F4FF;
-  text-align: center;
 }
 
 .section3 h2 {
@@ -480,34 +483,34 @@ header {
 }
 
 .section3 div {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap;
   gap: 30px 20px;
-  max-width: 100%;
-  justify-content: center;
 }
 
-.section3 div img {
+.imgcontainer {
   width: calc(50% - 10px);
-  border-radius: 5%;
+}
+
+.backimage {
   object-fit: cover;
   aspect-ratio: 1 / 1;
+}
+
+.servicetitle {
+  padding: 0 30px;
+}
+
+.request {
+  bottom: 25px;
 }
 
 .btn {
   display: inline-block;
   margin-top: 2em;
   padding: 0.9em 1.7em;
-  background-color: #4361EE;
-  color: #FFFFFF;
-  border: none;
   border-radius: 7px;
-  cursor: pointer;
-  align-content: center;
 }
 
-.section3 label > img {
+.section3 button > img {
   width: 1.2em;
 }
 
@@ -517,10 +520,6 @@ header {
 
 .desktop {
   display: none;
-}
-
-.mobile {
-  display: inline-block;
 }
 
   /* Santiago starts here */
@@ -577,13 +576,6 @@ header {
 /* 639px */
 @media screen and (max-width: 639px) {
   /* K starts here */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Proxima Nova", sans-serif;
-  }
-
   header,
   .section1 {
     padding-left: 5%;
@@ -593,21 +585,9 @@ header {
   header {
     padding-top: 5%;
     padding-bottom: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #logo {
-    width: 60px;
-  }
-
-  #hamburger {
-    width: 30px;
   }
 
   .section1 {
-    background-color: #e9f4ff;
     display: flex;
     flex-flow: column;
     padding-top: 2%;
@@ -615,29 +595,14 @@ header {
   }
 
   .section1 h1 {
-    padding-top: 10%;
     font-size: 24px;
-    line-height: 1.5;
-  }
-
-  .underline-image {
-    display: inline;
-    background-image: url("../assets/Vector\ 4.png"); /* underline */
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    padding-bottom: 5px;
   }
 
   .section1 button {
     margin-top: 5%;
-    padding: 1em 2em;
-    background-color: #4361ee;
-    color: #ffffff;
+    padding: 0.7em 2em;
     border-radius: 7px;
-    border: none;
     font-size: 1.2em;
-    font-weight: 600;
   }
 
   .heroimage {
@@ -647,8 +612,6 @@ header {
   #hero {
     top: 55px;
     left: 15px;
-    position: relative;
-    width: 100%;
   }
 
   #pattern {
@@ -661,25 +624,18 @@ header {
   }
 
   .section2 {
-    text-align: center;
     margin-top: 10%;
     padding: 0 34px;
   }
 
   .section2 h2 {
-    font-size: 1.8em;
+    font-size: 24px;
     padding: 10% 0 0 0;
   }
 
   .section2 p {
-    line-height: 1.7;
     margin-top: 7%;
-    padding: 0;
-    font-size: 1.2em;
-  }
-
-  .section2 div {
-    align-items: center;
+    font-size: 1.1em;
   }
 
   .section2 img {
@@ -689,14 +645,11 @@ header {
 
   .section2 div p {
     text-align: center;
-    line-height: 1.7;
     font-size: 1.1em;
   }
 
   .section3 {
     padding: 3% 5%;
-    background-color: #e9f4ff;
-    text-align: center;
   }
 
   .section3 h2 {
@@ -705,50 +658,17 @@ header {
   }
 
   .section3 div {
-    margin-top: 5%;
-    display: flex;
     flex-wrap: wrap;
-    gap: 30px 20px;
     max-width: 100%;
-    justify-content: center;
   }
 
-  .section3 div img {
-    width: calc(50% - 10px);
-    height: calc(50% - 10px);
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 5%;
-  }
-
-  .section3 div img {
-    border-radius: 5%;
+  #digitalmarketing {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
   }
 
   .btn {
-    display: inline-block;
-    margin-top: 2em;
-    padding: 0.9em 1.7em;
-    background-color: #4361ee;
-    color: #ffffff;
-    border: none;
-    border-radius: 7px;
-    /* cursor: pointer; */
-    align-content: center;
-  }
-
-  #arrow {
-    width: 1.5em;
-    height: auto;
-    vertical-align: middle;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-  .mobile {
-    display: inline-block;
+    margin-bottom: 5%;
   }
   
   /* Santiago starts here */
